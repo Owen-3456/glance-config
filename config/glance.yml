@@ -9,7 +9,7 @@ pages:
           - type: custom-api
             title: Verse of the Day
             title-url: https://www.bible.com/verse-of-the-day
-            cache: 24h
+            cache: 6h
             url: https://api.youversion.com/v1/verse_of_the_days
             headers:
               x-yvp-app-key: ${YOUVERSION_API_KEY}
