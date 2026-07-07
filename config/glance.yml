@@ -76,8 +76,10 @@ pages:
                   {{ range $messages }}
                     {{ $priority := .Int "priority" }}
                     {{ $date := .String "date" | parseTime "rfc3339" }}
-                    <li>
-                      <div class="flex items-center gap-8" style="margin-bottom: 3px;">
+                    {{ $title := .String "title" }}
+                    {{ $message := .String "message" }}
+                    <li data-popover-type="text" data-popover-text="{{ $title }}: {{ $message }}">
+                      <div class="flex items-center gap-10" style="margin-bottom: 3px;">
                         {{ if ge $priority 8 }}
                           <span class="color-negative">●</span>
                         {{ else if ge $priority 4 }}
@@ -85,10 +87,10 @@ pages:
                         {{ else }}
                           <span style="color: var(--color-text-subdue);">●</span>
                         {{ end }}
-                        <span class="color-highlight size-h4 grow">{{ .String "title" }}</span>
+                        <span class="color-highlight size-h4 grow" style="overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;">{{ $title }}</span>
                         <span class="size-h6" style="color: var(--color-text-subdue); white-space: nowrap;">{{ $date.Format "Jan 2 15:04" }}</span>
                       </div>
-                      <p class="size-h5" style="padding-left: 18px;">{{ .String "message" }}</p>
+                      <p class="size-h5" style="padding-left: 18px; white-space: pre-line; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;">{{ $message }}</p>
                     </li>
                   {{ end }}
                 </ul>
