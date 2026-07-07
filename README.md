@@ -6,6 +6,7 @@ Personal homelab dashboard running on Unraid via [Glance](https://github.com/gla
 
 | Widget             | Service                    | Source    |
 | ------------------ | -------------------------- | --------- |
+| Clock              | -                           | Built-in  |
 | Verse of the Day   | YouVersion + ESV Bible API | Custom    |
 | Notifications      | Gotify                     | Custom    |
 | Markets            | Yahoo Finance              | Built-in  |
@@ -33,7 +34,6 @@ TAUTULLI_KEY
 SONARR_KEY
 IMMICH_API_KEY
 OVERSEERR_API_KEY
-QBITTORRENT_IP
 UPTIME_KUMA_STATUS_SLUG
 SPEEDTEST_TRACKER_API_TOKEN
 TAILSCALE_API_KEY
