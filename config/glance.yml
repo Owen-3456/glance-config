@@ -150,19 +150,6 @@ pages:
                 {{ end }}
               </ul>
 
-          - type: markets
-            markets:
-              - symbol: SPY
-                name: S&P 500
-              - symbol: ^IXIC
-                name: NASDAQ
-              - symbol: BTC-USD
-                name: Bitcoin
-              - symbol: GC=F
-                name: Gold
-              - symbol: GBPUSD=X
-                name: GBP
-
       - size: full
         widgets:
           - type: server-stats
