@@ -6,7 +6,7 @@ Personal homelab dashboard running on Unraid via [Glance](https://github.com/gla
 
 | Widget             | Service                    | Source    |
 | ------------------ | -------------------------- | --------- |
-| Clock              | -                           | Built-in  |
+| Clock              | -                          | Built-in  |
 | Verse of the Day   | YouVersion + ESV Bible API | Custom    |
 | Notifications      | Gotify                     | Custom    |
 | Markets            | Yahoo Finance              | Built-in  |
