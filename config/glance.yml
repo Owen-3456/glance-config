@@ -259,6 +259,20 @@ pages:
                 title: Slothbytes
               - url: https://selfh.st/rss/
                 title: Selfh.st
+              - url: https://christitus.com/categories/linux/index.xml
+                title: CTT Linux
+              - url: https://christitus.com/categories/windows/index.xml
+                title: CTT Windows
+              - url: https://christitus.com/categories/development/index.xml
+                title: CTT Development
+              - url: https://christitus.com/categories/networking/index.xml
+                title: CTT Networking
+              - url: https://christitus.com/categories/android/index.xml
+                title: CTT Android
+              - url: https://christitus.com/categories/misc/index.xml
+                title: CTT Misc
+              - url: https://christitus.com/categories/hardware/index.xml
+                title: CTT Hardware
 
           - type: docker-containers
             format-container-names: true
