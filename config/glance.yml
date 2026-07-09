@@ -188,6 +188,14 @@ pages:
                   - title: Unraid
                     url: http://${TAILSCALE_ADDRESS}:80
                     icon: di:unraid
+              - title: Torrenting
+                links:
+                  - title: qBittorrent
+                    url: http://${TAILSCALE_ADDRESS}:8080
+                    icon: di:qbittorrent
+                  - title: Jackett
+                    url: http://${TAILSCALE_ADDRESS}:9117
+                    icon: di:jackett
               - title: Media
                 links:
                   - title: Plex
@@ -210,14 +218,6 @@ pages:
                   - title: iPlayarr
                     url: http://${TAILSCALE_ADDRESS}:4404
                     icon: sh:iplayarr
-              - title: Torrenting
-                links:
-                  - title: qBittorrent
-                    url: http://${TAILSCALE_ADDRESS}:8080
-                    icon: di:qbittorrent
-                  - title: Jackett
-                    url: http://${TAILSCALE_ADDRESS}:9117
-                    icon: di:jackett
               - title: Network
                 links:
                   - title: Nginx Proxy Manager
