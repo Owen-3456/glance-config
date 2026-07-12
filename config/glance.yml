@@ -224,6 +224,9 @@ pages:
                     icon: di:adguard-home
               - title: Monitoring
                 links:
+                  - title: Scrutiny
+                    url: http://${TAILSCALE_ADDRESS}:8888
+                    icon: sh:scrutiny
                   - title: Tautulli
                     url: http://${TAILSCALE_ADDRESS}:8181
                     icon: di:tautulli
