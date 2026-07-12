@@ -180,9 +180,9 @@ pages:
                   - title: qBittorrent
                     url: http://${TAILSCALE_ADDRESS}:8080
                     icon: di:qbittorrent
-                  - title: Jackett
-                    url: http://${TAILSCALE_ADDRESS}:9117
-                    icon: di:jackett-light
+                  - title: Prowlarr
+                    url: http://${TAILSCALE_ADDRESS}:9696
+                    icon: di:prowlarr
               - title: Media
                 links:
                   - title: Plex
