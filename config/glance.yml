@@ -175,6 +175,9 @@ pages:
                   - title: Unraid
                     url: http://${TAILSCALE_ADDRESS}:80
                     icon: di:unraid
+                  - title: Router
+                    url: https://192.168.1.254
+                    icon: di:router
               - title: Torrenting
                 links:
                   - title: qBittorrent
