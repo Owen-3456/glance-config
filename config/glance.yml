@@ -182,7 +182,7 @@ pages:
                     icon: di:qbittorrent
                   - title: Jackett
                     url: http://${TAILSCALE_ADDRESS}:9117
-                    icon: di:jackett
+                    icon: di:jackett-light
               - title: Media
                 links:
                   - title: Plex
@@ -212,7 +212,7 @@ pages:
                     icon: di:nginx-proxy-manager
                   - title: Tailscale
                     url: https://login.tailscale.com/admin
-                    icon: di:tailscale
+                    icon: di:tailscale-light
                   - title: Cloudflare
                     url: https://dash.cloudflare.com/
                     icon: di:cloudflare
@@ -226,7 +226,7 @@ pages:
                 links:
                   - title: Scrutiny
                     url: http://${TAILSCALE_ADDRESS}:8888
-                    icon: sh:scrutiny
+                    icon: sh:scrutiny-light
                   - title: Tautulli
                     url: http://${TAILSCALE_ADDRESS}:8181
                     icon: di:tautulli
