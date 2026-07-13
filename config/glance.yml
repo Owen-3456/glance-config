@@ -249,6 +249,14 @@ pages:
                   - title: Cloudflare
                     url: https://dash.cloudflare.com/
                     icon: di:cloudflare
+              - title: RSS
+                links:
+                  - title: FreshRSS
+                    url: http://${TAILSCALE_ADDRESS}:88
+                    icon: sh:freshrss
+                  - title: FiveFilters
+                    url: http://${TAILSCALE_ADDRESS}:50000
+                    icon: si:rss
 
           - type: rss
             title: Feeds
