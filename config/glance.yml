@@ -196,7 +196,7 @@ pages:
                     icon: di:immich
                   - title: Seerr
                     url: http://${TAILSCALE_ADDRESS}:5055
-                    icon: di:overseerr
+                    icon: di:seerr
               - title: Arr
                 links:
                   - title: Radarr
@@ -670,13 +670,13 @@ pages:
               {{ end }}
 
           - type: custom-api
-            title: Overseerr Requests
+            title: Seerr Requests
             title-url: http://${TAILSCALE_ADDRESS}:5055/requests
             url: http://${SERVER_ADDRESS}:5055/api/v1/request/count
             cache: 1h
             headers:
               accept: "application/json"
-              x-api-key: ${OVERSEERR_API_KEY}
+              x-api-key: ${SEERR_API_KEY}
             template: |
               {{ if eq .Response.StatusCode 200 }}
               <div class="flex justify-evenly text-center">
