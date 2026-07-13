@@ -213,12 +213,6 @@ pages:
                   - title: Nginx Proxy Manager
                     url: http://${TAILSCALE_ADDRESS}:1880
                     icon: di:nginx-proxy-manager
-                  - title: Tailscale
-                    url: https://login.tailscale.com/admin
-                    icon: di:tailscale-light
-                  - title: Cloudflare
-                    url: https://dash.cloudflare.com/
-                    icon: di:cloudflare
                   - title: DuckDNS
                     url: https://www.duckdns.org/
                     icon: di:duckdns
@@ -239,6 +233,22 @@ pages:
                   - title: Gotify
                     url: http://${TAILSCALE_ADDRESS}:8070
                     icon: di:gotify
+              - title: Tools
+                links:
+                  - title: Perlite
+                    url: http://${TAILSCALE_ADDRESS}:8765
+                    icon: di:perlite
+                  - title: Stirling PDF
+                    url: http://${TAILSCALE_ADDRESS}:8081
+                    icon: sh:stirling-pdf
+              - title: External
+                links:
+                  - title: Tailscale
+                    url: https://login.tailscale.com/admin
+                    icon: di:tailscale-light
+                  - title: Cloudflare
+                    url: https://dash.cloudflare.com/
+                    icon: di:cloudflare
 
           - type: rss
             title: Feeds
