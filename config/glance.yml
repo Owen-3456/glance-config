@@ -235,6 +235,9 @@ pages:
                     icon: di:gotify
               - title: Tools
                 links:
+                  - title: FileBrowser
+                    url: http://${TAILSCALE_ADDRESS}:8125
+                    icon: di:filebrowser
                   - title: Perlite
                     url: http://${TAILSCALE_ADDRESS}:8765
                     icon: di:perlite
